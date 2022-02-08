@@ -176,7 +176,7 @@ class _MyHomePageState extends State<MyHomePage> {
                    btntext = "";
               }
 
-            if(btntext == "+")
+            if(btntext == "+" || btntext == "-" || btntext == "*" || btntext == "/" || btntext == "%" )
               {
                 flag= false;
               }
